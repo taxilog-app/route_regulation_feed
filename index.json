@@ -1,0 +1,525 @@
+{
+ "generated": "2026-11-03T18:54:48Z",
+ "dataMonth": "2026-06",
+ "releaseDay": "2026-08-01",
+ "schema": 3,
+ "format": "拡張版標準フォーマット k_2.1",
+ "source": "交通規制情報オープンデータ（JARTIC）／OpenStreetMap contributors／国土地理院",
+ "attribution": "出典：JARTIC 交通規制情報オープンデータ（各都道府県警察）／© OpenStreetMap contributors（ODbL）／国土地理院 地理院地図Vector。当アプリで加工して作成。",
+ "areas": [
+  {
+   "key": "chiba",
+   "label": "千葉地区（湾岸・北西部・第1段）",
+   "bbox": [
+    35.53,
+    139.8,
+    35.92,
+    140.25
+   ],
+   "prefs": [
+    "12"
+   ],
+   "dataMonth": "2026-06",
+   "file": "chiba/road_reg.sqlite.gz",
+   "bytes": 914437,
+   "rawBytes": 2781184,
+   "sha256": "3e23638b05345663f2f77d79c3e75eac951d0d37e00d7510357aa27ced79dec0",
+   "counts": {
+    "bus_lane": 23,
+    "no_entry": 734,
+    "oneway": 2846,
+    "ped_cycle_road": 1,
+    "ped_road": 6,
+    "turn_ban": 1420,
+    "uturn_ban": 15
+   },
+   "total": 5293
+  },
+  {
+   "key": "fukuoka",
+   "label": "福岡市域地区（福岡交通圏）",
+   "bbox": [
+    33.41,
+    130.093,
+    33.758,
+    130.601
+   ],
+   "prefs": [
+    "40"
+   ],
+   "dataMonth": "2026-06",
+   "file": "fukuoka/road_reg.sqlite.gz",
+   "bytes": 945334,
+   "rawBytes": 3313664,
+   "sha256": "88f64c90ea2e25379ce0c08c3d920b8eaba55020ec6b42c91dca44277f9d5db4",
+   "counts": {
+    "no_entry": 30,
+    "oneway": 2650,
+    "ped_road": 424,
+    "turn_ban": 3613,
+    "uturn_ban": 18
+   },
+   "total": 7163,
+   "checks": {
+    "file": "fukuoka/local_check.json",
+    "bytes": 518926,
+    "sha256": "e2cc1ad0ae3aebebec8e236df684dff93a079d5d860081389a3ad769eee1808b",
+    "count": 1550
+   }
+  },
+  {
+   "key": "hyogo",
+   "label": "兵庫地区（近畿）",
+   "bbox": [
+    34.146,
+    134.243,
+    35.685,
+    135.414
+   ],
+   "prefs": [
+    "28"
+   ],
+   "dataMonth": "2026-06",
+   "file": "hyogo/road_reg.sqlite.gz",
+   "bytes": 698730,
+   "rawBytes": 2191360,
+   "sha256": "9024014b95a1317dbdcabe4eec9533f96ae919db692a8efc5cc0de27c1435c64",
+   "counts": {
+    "no_entry": 45,
+    "oneway": 1408,
+    "ped_road": 496,
+    "turn_ban": 1668,
+    "uturn_ban": 9
+   },
+   "total": 3825
+  },
+  {
+   "key": "kagawa",
+   "label": "香川県香川地区（四国）",
+   "bbox": [
+    34.002,
+    133.437,
+    34.444,
+    134.458
+   ],
+   "prefs": [
+    "37"
+   ],
+   "dataMonth": "2026-06",
+   "file": "kagawa/road_reg.sqlite.gz",
+   "bytes": 298004,
+   "rawBytes": 978944,
+   "sha256": "f6be10a1469ac25ba58d4b44039e7c350897f1fd4605c1d54acba53d6c8b32e9",
+   "counts": {
+    "no_entry": 27,
+    "oneway": 476,
+    "ped_cycle_road": 173,
+    "ped_road": 15,
+    "turn_ban": 1072,
+    "uturn_ban": 12
+   },
+   "total": 1866
+  },
+  {
+   "key": "kagoshima",
+   "label": "鹿児島地区（九州）",
+   "bbox": [
+    29.117,
+    129.177,
+    32.321,
+    131.215
+   ],
+   "prefs": [
+    "46"
+   ],
+   "dataMonth": "2026-06",
+   "file": "kagoshima/road_reg.sqlite.gz",
+   "bytes": 745283,
+   "rawBytes": 2387968,
+   "sha256": "dd9521b8cd5b042f8e66e7e491d742849413dc00afb62b42cc5526d7051d160e",
+   "counts": {
+    "no_entry": 8,
+    "oneway": 1063,
+    "ped_cycle_road": 7,
+    "ped_road": 348,
+    "turn_ban": 3345,
+    "uturn_ban": 21
+   },
+   "total": 5058
+  },
+  {
+   "key": "kitakyushu",
+   "label": "北九州市域地区（九州）",
+   "bbox": [
+    33.711,
+    130.532,
+    34.032,
+    131.049
+   ],
+   "prefs": [
+    "40"
+   ],
+   "dataMonth": "2026-06",
+   "file": "kitakyushu/road_reg.sqlite.gz",
+   "bytes": 522400,
+   "rawBytes": 1855488,
+   "sha256": "4b31c42d2e80c1552be2b6e12988ee280746629cef86cdd67491f358ea27ed0a",
+   "counts": {
+    "no_entry": 31,
+    "oneway": 1336,
+    "ped_road": 270,
+    "turn_ban": 1979,
+    "uturn_ban": 5
+   },
+   "total": 3834
+  },
+  {
+   "key": "kobe",
+   "label": "神戸市域地区（近畿）",
+   "bbox": [
+    34.614,
+    134.853,
+    35.037,
+    135.478
+   ],
+   "prefs": [
+    "28"
+   ],
+   "dataMonth": "2026-06",
+   "file": "kobe/road_reg.sqlite.gz",
+   "bytes": 1316778,
+   "rawBytes": 4308992,
+   "sha256": "a785fd029c67b72df4c0696b65ec8a83f18c15db0e5cfcbb12819c936e95430e",
+   "counts": {
+    "no_entry": 81,
+    "oneway": 3738,
+    "ped_road": 1159,
+    "turn_ban": 2919,
+    "uturn_ban": 64
+   },
+   "total": 8299
+  },
+  {
+   "key": "kochi_city",
+   "label": "高知県高知市域地区（四国）",
+   "bbox": [
+    33.45,
+    133.148,
+    33.842,
+    133.635
+   ],
+   "prefs": [
+    "39"
+   ],
+   "dataMonth": "2026-06",
+   "file": "kochi_city/road_reg.sqlite.gz",
+   "bytes": 213867,
+   "rawBytes": 786432,
+   "sha256": "8f7022dc2291a52c4655d5ccaf93d6bbe8682191b1d6508d1c1f84aa59a9e871",
+   "counts": {
+    "no_entry": 40,
+    "oneway": 384,
+    "ped_road": 123,
+    "turn_ban": 817,
+    "uturn_ban": 10
+   },
+   "total": 1441
+  },
+  {
+   "key": "kyoto",
+   "label": "京都市域地区（近畿）",
+   "bbox": [
+    34.696,
+    135.549,
+    35.331,
+    136.066
+   ],
+   "prefs": [
+    "26"
+   ],
+   "dataMonth": "2026-06",
+   "file": "kyoto/road_reg.sqlite.gz",
+   "bytes": 584730,
+   "rawBytes": 1699840,
+   "sha256": "3950719cfa8a0a6951170192592a3bec41985713d67c24a204bda6042f2ba13a",
+   "counts": {
+    "bus_lane": 12,
+    "no_entry": 433,
+    "oneway": 1529,
+    "ped_road": 81,
+    "turn_ban": 786,
+    "uturn_ban": 56
+   },
+   "total": 3258
+  },
+  {
+   "key": "mie",
+   "label": "三重地区（中部）",
+   "bbox": [
+    33.77,
+    135.843,
+    35.268,
+    136.998
+   ],
+   "prefs": [
+    "24"
+   ],
+   "dataMonth": "2026-06",
+   "file": "mie/road_reg.sqlite.gz",
+   "bytes": 666547,
+   "rawBytes": 2265088,
+   "sha256": "fc068efbd36517d7bc8325e54acff7f1f57f7203f8854ecfbaa57e16942e3cf0",
+   "counts": {
+    "no_entry": 66,
+    "oneway": 1193,
+    "ped_cycle_road": 151,
+    "ped_road": 147,
+    "turn_ban": 2602,
+    "uturn_ban": 12
+   },
+   "total": 4643
+  },
+  {
+   "key": "miyazaki",
+   "label": "宮崎地区（九州）",
+   "bbox": [
+    31.351,
+    130.693,
+    32.849,
+    131.896
+   ],
+   "prefs": [
+    "45"
+   ],
+   "dataMonth": "2026-06",
+   "file": "miyazaki/road_reg.sqlite.gz",
+   "bytes": 478870,
+   "rawBytes": 1515520,
+   "sha256": "ddf575bce9621e4c1c5be72a889cd90154d022a997ec97ae010ab2fb61395f83",
+   "counts": {
+    "no_entry": 227,
+    "no_entry_pt": 4,
+    "oneway": 713,
+    "turn_ban": 2330,
+    "uturn_ban": 16
+   },
+   "total": 3522
+  },
+  {
+   "key": "nagoya",
+   "label": "名古屋地区（中部）",
+   "bbox": [
+    34.979,
+    136.661,
+    35.312,
+    137.199
+   ],
+   "prefs": [
+    "23"
+   ],
+   "dataMonth": "2026-06",
+   "file": "nagoya/road_reg.sqlite.gz",
+   "bytes": 1532201,
+   "rawBytes": 5328896,
+   "sha256": "d61940fbbe1ff760966b1a8efbff7913267ed6146cd92a2c5984bd9a0f6a9e46",
+   "counts": {
+    "bus_lane": 1,
+    "no_entry": 112,
+    "oneway": 8668,
+    "ped_road": 905,
+    "turn_ban": 3541,
+    "uturn_ban": 175
+   },
+   "total": 13703
+  },
+  {
+   "key": "nara",
+   "label": "奈良地区（近畿）",
+   "bbox": [
+    33.849,
+    135.53,
+    34.791,
+    136.24
+   ],
+   "prefs": [
+    "29"
+   ],
+   "dataMonth": "2026-06",
+   "file": "nara/road_reg.sqlite.gz",
+   "bytes": 603844,
+   "rawBytes": 1822720,
+   "sha256": "bfb4d32bc49f48b7954cd6c077c22c114fbbbe2e1dad17165ed6b9ddc7e978ed",
+   "counts": {
+    "bus_lane": 10,
+    "no_entry": 117,
+    "oneway": 983,
+    "ped_cycle_road": 140,
+    "ped_road": 13,
+    "turn_ban": 1923,
+    "uturn_ban": 68
+   },
+   "total": 3408
+  },
+  {
+   "key": "oita",
+   "label": "大分地区（九州）",
+   "bbox": [
+    32.704,
+    130.814,
+    33.75,
+    132.187
+   ],
+   "prefs": [
+    "44"
+   ],
+   "dataMonth": "2026-06",
+   "file": "oita/road_reg.sqlite.gz",
+   "bytes": 743181,
+   "rawBytes": 2367488,
+   "sha256": "8cc482674c525be29f77917c18c61056cc151defa256498d1dd9294ad979bca7",
+   "counts": {
+    "bus_lane": 1,
+    "no_entry": 28,
+    "oneway": 690,
+    "ped_road": 222,
+    "turn_ban": 3791,
+    "uturn_ban": 10
+   },
+   "total": 5033
+  },
+  {
+   "key": "okinawa_main",
+   "label": "沖縄県本島地区（沖縄）",
+   "bbox": [
+    26.064,
+    127.626,
+    26.886,
+    128.337
+   ],
+   "prefs": [
+    "47"
+   ],
+   "dataMonth": "2026-06",
+   "file": "okinawa_main/road_reg.sqlite.gz",
+   "bytes": 386277,
+   "rawBytes": 1253376,
+   "sha256": "63471a90e81f01484dbdd71925ba58d3a56173d3a73def9ca99869aeb13ba511",
+   "counts": {
+    "no_entry": 88,
+    "oneway": 647,
+    "ped_cycle_road": 167,
+    "ped_road": 126,
+    "turn_ban": 1293,
+    "uturn_ban": 98
+   },
+   "total": 2563
+  },
+  {
+   "key": "osaka",
+   "label": "大阪地区（大阪市域中心・第1段）",
+   "bbox": [
+    34.56,
+    135.38,
+    34.82,
+    135.63
+   ],
+   "prefs": [
+    "27"
+   ],
+   "dataMonth": "2026-06",
+   "file": "osaka/road_reg.sqlite.gz",
+   "bytes": 2544999,
+   "rawBytes": 7737344,
+   "sha256": "d192b255b251db48a56d893ba3412a9a239c5c527e739e7bf3897ed14bb32275",
+   "counts": {
+    "no_entry": 97,
+    "oneway": 8919,
+    "ped_cycle_road": 2770,
+    "ped_road": 195,
+    "turn_ban": 4978,
+    "uturn_ban": 924
+   },
+   "total": 19389
+  },
+  {
+   "key": "saitama",
+   "label": "埼玉南部地区（関東）",
+   "bbox": [
+    35.744,
+    139.09,
+    36.225,
+    139.91
+   ],
+   "prefs": [
+    "11"
+   ],
+   "dataMonth": "2026-06",
+   "file": "saitama/road_reg.sqlite.gz",
+   "bytes": 1004817,
+   "rawBytes": 2748416,
+   "sha256": "9af5ee93d49efff614ea87d24edc1e66c2491a8789cafa402af5c918d01261fe",
+   "counts": {
+    "no_entry": 27,
+    "oneway": 4085,
+    "ped_cycle_road": 7,
+    "ped_road": 19,
+    "turn_ban": 1240,
+    "uturn_ban": 60
+   },
+   "total": 5655
+  },
+  {
+   "key": "sapporo",
+   "label": "札幌・小樽地区（北海道）",
+   "bbox": [
+    42.771,
+    140.835,
+    43.748,
+    141.678
+   ],
+   "prefs": [
+    "01"
+   ],
+   "dataMonth": "2026-06",
+   "file": "sapporo/road_reg.sqlite.gz",
+   "bytes": 116376,
+   "rawBytes": 376832,
+   "sha256": "a88ac7397309b72d4bb4b87cad3add39f744fdf064c07930b52a66bec4812ecc",
+   "counts": {
+    "bus_lane": 1,
+    "no_entry": 10,
+    "oneway": 456,
+    "ped_cycle_road": 8,
+    "ped_road": 194,
+    "uturn_ban": 20
+   },
+   "total": 702
+  },
+  {
+   "key": "tokyo",
+   "label": "特別区・武三地区",
+   "bbox": [
+    35.5,
+    139.55,
+    35.82,
+    139.93
+   ],
+   "prefs": [
+    "13"
+   ],
+   "dataMonth": "2026-06",
+   "file": "tokyo/road_reg.sqlite.gz",
+   "bytes": 12254751,
+   "rawBytes": 37957632,
+   "sha256": "c2c833da3fde2b2c46b56b5cf03b8db5cb98886412309db2b8fca810f07f0285",
+   "counts": {
+    "no_entry": 5562,
+    "oneway": 15571,
+    "ped_road": 4780,
+    "turn_ban": 46880,
+    "uturn_ban": 515
+   },
+   "total": 84084
+  }
+ ]
+}
